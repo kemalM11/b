@@ -1,0 +1,254 @@
+/*#aside {
+	background: #dfdfdf;
+	width: 40%;
+	float: left;
+
+}*/	
+
+
+*{
+	padding: 0px; margin: 0px;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+h1{
+	float: left;
+	font-size: 40px;
+	padding-top: 10px;
+}
+
+.wrapper{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.content-header{
+	background: #3a5795;
+	color: white;
+	padding: 10px 0;
+	border-bottom: 1px solid black;
+}
+
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.content-header form{
+	float: right;
+}
+
+.content-header label{
+	font-size: 12px;
+	padding-bottom: 2px;
+}
+
+.content-header label,
+.content-header input{
+	display: block;
+}
+
+.content-header input[type="checkbox"]{
+	display: inline-block;
+
+}
+
+.content-header input[type="submit"]{
+	background-color: #5972a8;
+	color: white;
+	font-weight: bold;
+	padding: 2px;
+	border: 1px solid black;
+	font-size: 12px;
+	margin-top: 15px;
+}
+
+.group-form{
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.group-form a{
+	color: #9daccb;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/*---- isi ----*/
+.content-isi{
+	background: #edf0f5;
+}
+
+.content-isi .isi-info{
+	float: left;
+	width: 55%;
+	margin-right: 5%;
+}
+
+.content-isi .isi-daftar{
+	float: left;
+	width: 40%;
+}
+
+h2{
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+.content-isi ul li {
+	list-style: none;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.content-isi span{
+	font-weight: normal;
+	margin-left: 10px;
+	color: grey;
+}
+
+
+
+h3{
+	margin-top: 10px;
+	font-size: 35px;
+}
+
+.isi-daftar p:nth-child(2){
+	color: grey;
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+
+#ttl{
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+
+.isi-daftar input{
+	border-radius: 5px;
+	border: 1px solid grey;
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+
+.isi-daftar input.inline {
+	float: left;
+	width: 49%;
+	margin-right: 2%;
+}
+
+.isi-daftar input.inline_last{
+	margin-right: 0%;
+} 
+
+#info-ultah,
+#info-register{
+	font-size: 12px;
+	color: grey;
+}
+
+#info-ultah{
+	text-decoration: none;
+}
+
+#info-ultah:hover{
+	text-decoration: underline;
+}
+
+.isi-daftar p:last-child a,
+#info-register a{
+	text-decoration: none;
+	color: rgb(46, 113, 228);
+}
+
+#info-register a:hover{
+	text-decoration: underline;
+}
+
+.isi-daftar input[type=radio]{
+	display: inline-block;
+	width: 30px;
+	margin-top: 10px;
+}
+
+.isi-daftar label{
+	font-size: 15px;
+}
+
+.isi-daftar input[type=submit]{
+	background-color: green;
+	color: white;
+	font-size: 20px;
+	padding: 5px;
+	width: 150px;
+	margin-top: 15px;
+	text-align: center;
+}
+
+.isi-daftar form{
+	border-bottom: 1px solid grey;
+	margin-bottom: 10px;
+
+}
+
+.isi-daftar p:last-child{
+	color: grey;
+	margin-bottom: 45px;
+}
+
+::-webkit-input-placeholder {font-size: 15px;}
+input:-moz-placeholder {font-size: 15px;}
+
+
+/*--------- footer ---------*/
+
+.content-footer{
+	padding: 10px 0;
+}
+.content-footer ul:first-child{
+	border-bottom: 1px solid grey;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+
+
+}
+
+.content-footer li{
+	display: inline-block;
+ 	margin-right: 5px;
+ }
+
+.content-footer a{
+	text-decoration: none;
+	font-size: 12px;
+	color: rgb(46, 113, 228);
+}
+
+.content-footer a:hover{
+	text-decoration: underline;
+}
+.content-footer p{
+	margin:10px 0;
+	color: grey;
+	font-size: 12px;
+}
+
+
+
+
+
+
+/*--- end ---*/
